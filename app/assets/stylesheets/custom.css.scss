@@ -7,6 +7,17 @@ $navbar-default-bg: #073B15;
   text-align: center;
 }
 
+.jumbotron {
+  background-image: asset-url('cover_image2.png');
+  background-size: cover;
+  height: 300px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2cm;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -22,3 +33,20 @@ $navbar-default-bg: #073B15;
   
 }
 
+.jumbotron h1, h2 {
+  color: #ffbc00;
+  text-align: right;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: #073B15 ;
+  border-color:#073B15 ;
+}
+
+.btn-xlarge {
+  color: #fff;
+  text-decoration: none;
+}
