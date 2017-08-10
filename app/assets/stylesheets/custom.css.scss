@@ -13,10 +13,8 @@ $navbar-default-bg: #073B15;
   height: 300px;
 }
 
-.footer {
-  text-align: center;
-  padding-top: 2cm;
-}
+
+
 
 #logo {
   float: left;
@@ -41,12 +39,53 @@ $navbar-default-bg: #073B15;
   font-weight: bold;
 }
 
-.btn-xlarge {
-  background-color: #073B15 ;
-  border-color:#073B15 ;
+.col-lg-4 h3 {
+  color: #073B15;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 .btn-xlarge {
+  background-color: #073B15 ;
+  border-color:#073B15 ;
+  
+}
+
+.btn-xlarge:hover {
   color: #fff;
   text-decoration: none;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
