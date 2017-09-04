@@ -31,7 +31,15 @@ $navbar-default-bg: #073B15;
   
 }
 
-.jumbotron h1, h2 {
+.jumbotron h1 {
+  color: #ffbc00;
+  text-align: right;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
   color: #ffbc00;
   text-align: right;
   margin-bottom: 30px;
