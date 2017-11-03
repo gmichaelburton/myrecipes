@@ -4,7 +4,8 @@ class RecipesEditTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   def setup
-    @chef = Chef.create!(chefname: "michael", email: "burtm@fordav.com")
+    @chef = Chef.create!(chefname: "michael", email: "burtm@fordav.com",
+                        password: "password", password_confirmation: "password")
     @recipe = Recipe.create(name: "french", description: "mom old recipes", chef: @chef)
   end# end
   
